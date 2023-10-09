@@ -1,0 +1,22 @@
+.cart{
+    border: 1px solid gray;
+    margin: 10px;
+}
+.cart_section{
+    padding: 25px;
+}
+
+.cart button{
+    margin-top: 30px;
+    padding: 10px 20px;
+    border: 1px solid gray;
+    background: white;
+}
+.cart button img{
+    margin-right: 10px;
+}
+
+.cart button:hover{
+    background: #F4A137;
+    color: white;
+}

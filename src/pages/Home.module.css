@@ -1,0 +1,76 @@
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+.category_side{
+    display: flex;
+    padding:10px;
+    border-bottom: 1px solid ;
+    
+  }
+  .category_side p{
+    margin-left: 20px;
+  }
+.category_side_menu{
+  width: 268px;
+  margin-left: 140px;
+  border: 1px solid gray;
+}
+  .hero_section{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+  }
+  .hero_slider p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .hero_banner_section{
+    margin-top: 30px;
+    
+  }
+  .hero_banner img{
+    margin-top: 10px;
+    padding-left: 20px;
+  }
+  .facility{
+    display: flex;
+    background: #EEEEEE;
+    padding: 20px;
+    margin-top: 50px;
+    justify-content: space-between;
+    border: 2px solid #EEEEEE;
+    box-shadow: 5px 5px #808080;
+    max-width: 83%;
+    grid-column: 2/4;
+  }
+  .facility_option{
+    display: flex;
+    align-items: center;
+    
+  }
+  .facility_option img{
+    width: 36px;
+    height: 46px;
+    margin-right: 10px;
+  }
+  .facility_option p{
+    color: #999999;
+  }
+
+  .cart_section{
+    display: flex;
+    justify-content: center;
+  }
+
+  .tab_item{
+    margin-left: 70%;
+    margin-top: 30px;
+  }
+
+  .hero_banner{
+    width: 65%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }

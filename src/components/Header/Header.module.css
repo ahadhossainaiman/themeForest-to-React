@@ -1,0 +1,147 @@
+/* dropdown design */
+
+#customSelect {
+    padding: 3px;
+    font-size: 16px;
+    width: 100px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  #customSelect:focus{
+    border: 1px solid #ccc;
+  }
+
+  #customSelect option {
+    padding: 10px;
+    font-size: 14px;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  /* Style the hover state of options */
+  #customSelect option:hover {
+    background-color: #99ff00;
+    cursor: pointer;
+  }
+  
+  /* Style the selected option */
+  #customelect option:checked {
+    background-color: #ccff00;
+    color: #000000;
+  }
+
+  .nav_right_section{
+    display: flex;
+  }
+  .nav_right_section p{
+    color:#999999;
+    padding: 5px 10px;
+    border-left: 1px solid #DDDDDD;
+    border-right: 1px solid #DDDDDD;
+    
+  }  
+
+  .nav_upper{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 140px;
+  }
+
+
+.nav_cart_section{
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+.nav_cart{
+    margin-left: 10px;
+}
+
+.main_nav_section{
+    display: flex;
+    justify-content:space-around;
+    padding:50px 0px 
+}
+
+
+
+#customCategory{
+    font-size: 12px;
+    width: 150px;
+    height: 33px;
+    border: 1px solid #ccc;
+    background-color: #EEEEEE;
+  }
+
+  #searchCategory{
+    margin: 0;
+    padding: 0;
+    width: 534px;
+    height: 33px;
+    border:1px solid #ccc ;
+  }
+  #searchCategory:focus{
+   outline: none;
+  }
+
+  #searchBtn{
+    width: 34px;
+    height: 34px;
+    border:0px;
+    border-radius: 1px;
+    background-color: #666666;
+  }
+
+  .side_menu{
+    display: flex;
+    background-color: #444444;
+    padding: 20px 10px;
+    width: 248px;
+    height: 14px;
+    z-index: 33;
+    
+  }
+  .side_menu h1{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+    font-size: medium;
+  }
+   .side_menu img{
+    size: 15px;
+   }
+.main_menu_section{
+    display: flex;
+    height: 54px;
+    background: #666666;
+    padding: 0px 0px;
+    align-items: center;
+    padding-left: 140px;
+    position:sticky;
+    top:0px;
+    
+}
+  .main_menu{
+    display: flex;
+    margin-left: 190px;
+   
+  }
+  .main_menu a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-left:35px;
+  }
+
+
+
+
+
+
+  
+
+
+ 
